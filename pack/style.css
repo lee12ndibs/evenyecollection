@@ -1,0 +1,258 @@
+/*
+ *
+ * Template Name: Alissa
+ * Template URI: http://azmind.com
+ * Description: Alissa - Responsive Coming Soon Template
+ * Author: Anli Zaimi
+ * Author URI: http://azmind.com
+ *
+ */
+
+
+body {
+    background: #f8f8f8 url(../img/pattern.jpg);
+    border-top: 2px solid #36330c;
+    font-family: 'Lato', sans-serif;
+    color: #555;
+    font-weight: 400;
+    text-align: left;
+}
+
+strong { font-weight: 700; }
+
+a, a:hover, a:focus {
+	color: #36330c;
+	text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+img { 
+    width: 100%;
+    max-width: 100%; }
+
+::-moz-selection { background: #36330c; color: #fff; text-shadow: none; }
+::selection { background: #36330c; color: #fff; text-shadow: none; }
+
+
+/***** Header *****/
+
+.logo h1 {
+    margin-top: 7px;
+    font-family: 'Garamond';
+    font-size: 38px;
+    
+    color: #555;
+}
+
+.logo h1 span { color: #36330c; }
+
+.logo a { color: #555; }
+.logo a:hover { color: #36330c; }
+
+.call-us {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.call-us p {
+    margin-top: 18px;
+}
+
+.call-us p span { color: #888; }
+
+
+/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+
+}
+
+.inner-bg {
+    padding: 55px 0 60px 0;
+    background-image: url("../assets/images/first31.jpg");
+    background-size: 120%;
+    height: 250px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+.coming-soon h2 {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 700;
+    text-shadow: 0 1px 7px rgba(0,0,0,.2);
+}
+
+.coming-soon p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 36px;
+    text-shadow: 0 1px 7px rgba(0,0,0,.2);
+}
+
+.backstretch{
+    display: inline-block;
+}
+
+.image_backstretch{
+
+}
+/***** Content *****/
+
+.subscribe {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.subscribe h3 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #4d4d4d;
+    line-height: 40px;
+    text-shadow: 1px 2px 1px #fff;
+}
+
+.subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.subscribe form {
+    margin-top: 24px;
+}
+
+.subscribe form input.subscribe-email {
+    width: 310px;
+    height: 46px;
+    margin: 0;
+    padding: 0 10px;
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 46px;
+    color: #888;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+}
+
+.subscribe form input:focus {
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.15);
+}
+
+.subscribe form input:-moz-placeholder { color: #888; }
+.subscribe form input:-ms-input-placeholder { color: #888; }
+.subscribe form input::-webkit-input-placeholder { color: #888; }
+
+.subscribe form button {
+    width: 130px;
+    height: 46px;
+    margin: 0;
+    padding: 0;
+    background: #36330c;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 46px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+.subscribe form button.btn:hover {
+    background: #555;
+    color: #fff;
+}
+
+.subscribe form button.btn:focus, .subscribe form button.btn:active {
+	outline: 0;
+    background: #555;
+    color: #fff;
+}
+
+.success-message, .error-message {
+	display: none;
+	margin-top: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.error-message {
+    color: #e75967;
+}
+
+.social {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.social a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    margin: 3px;
+    padding-top: 9px;
+    background: #555;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+    font-size: 28px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.social a:hover, .social a:focus { outline: 0; background: #36330c; }
+
+
+/***** Media Queries *****/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.inner-bg {
+    padding: 55px 0 60px 0;
+    background-image: url("../assets/images/first31.jpg");
+    background-size: 120%;
+    height: 250px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+}
+
+@media (max-width: 767px) {
+
+    .logo h1 { text-align: center; }
+    .call-us { padding-bottom: 7px; text-align: center; }
+
+    .coming-soon h2 { font-size: 36px; }
+
+    .inner-bg {
+    padding: 15px 0 20px 0;
+    background-image: url("../assets/images/first32.jpg");
+    background-size: 100%;
+    height: 230px;
+    -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+}
+
+
+    .subscribe h3 { font-size: 28px; }
+    .subscribe form input.subscribe-email, .subscribe form button { width: 100%; }
+
+}
+
